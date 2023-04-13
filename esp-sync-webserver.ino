@@ -45,8 +45,8 @@ DHT dht(DHTPIN, DHTTYPE);
 float h, t;
 
 // Wifi creditendials
-const char* ssid = "MITAI2"; // "WiFi_Mateas";
-const char* password = "sstvsvl1"; // "11211121";
+const char* ssid = "MITAI2";
+const char* password = "sstvsvl1";
 
 // Initializing the object of server
 ESP8266WebServer server(80);
